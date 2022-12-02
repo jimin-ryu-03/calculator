@@ -11,6 +11,7 @@ int size;
 
 Stack * create_stack(int initial_size);
 void make_empty(Stack *s);
+//empty! message generated
 bool is_empty(Stack *s);
 bool is_full(Stack *s);
 void push(Stack *s, Item i);
